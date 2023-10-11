@@ -5,7 +5,7 @@ URL = "https://en.wikipedia.org/wiki/List_of_world_records_in_swimming"
 RECORDS = (0, 2, 4, 5)
 COURSES = ("LC Men", "LC Women", "SC Men", "SC Women")
 WHERE = "/Volumes/SSD/Backend/Python/Head First Python/Chapter9_Workig with Data/webapp/"
-# WHERE = ""
+# WHERE = "/home/quangminh1107/webapp/records.json"
 JSONDATA = "records.json"
 
 html = gazpacho.get(URL)
